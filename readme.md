@@ -1,3 +1,4 @@
+![Wake Up App](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/keep_alive.yml/badge.svg)
 \# 🛡️ Cocoa Market Intelligence: Global Volatility \& Regional Impact
 
 
