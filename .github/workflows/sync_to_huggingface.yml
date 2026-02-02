@@ -14,5 +14,5 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.CACAU_SINC }}
-        run: git push --force https://vpozza:$HF_TOKEN@huggingface.co/spaces/vpozza/global-cocoa-market-analytics main:main
+          CACAU_SYNC: ${{ secrets.CACAU_SYNC }}
+        run: git push --force https://vpozza:$CACAU_SYNC@huggingface.co/spaces/vpozza/global-cocoa-market-analytics main:main
