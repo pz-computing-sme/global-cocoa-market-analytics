@@ -8,7 +8,6 @@ app_file: app.py
 pinned: false
 ---
 
-![Sync to Hugging Face](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/sync_to_huggingface.yml/badge.svg)
 
 \# 🛡️ Cocoa Market Intelligence: Global Volatility \& Regional Impact
 
