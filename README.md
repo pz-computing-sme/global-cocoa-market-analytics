@@ -1,8 +1,20 @@
-![Wake Up App](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/keep_alive.yml/badge.svg)
+---
+title: Global Cocoa Market Analytics
+emoji: 🍫
+colorFrom: green
+colorTo: yellow
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
+![Sync to Hugging Face](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/keep_alive.yml/badge.svg)
 
 \# 🛡️ Cocoa Market Intelligence: Global Volatility \& Regional Impact
 
-> **Live Tool:** [global-cocoa-market-analytics.streamlit.app](https://global-cocoa-market-analytics.streamlit.app/)
+> **Live Tool:** 
+You can access the real-time simulation here:  
+👉 **[Global Cococa Market Analytics on Hugging Face](https://huggingface.co/spaces/vpozza/global-cocoa-market-analytics)**
 
 
 \### \*\*The Bridge between Wall Street and the Brazilian Farmgate\*\*
@@ -23,14 +35,15 @@ This project analyzes the 2024-2026 cocoa price cycle, highlighting the crash fr
 
 
 
-\- \*\*Python 3.10+\*\*
+\- \*\*Python 3.10+\*\*: Language (Dockerized)
 
-\- \*\*Streamlit\*\*: Dashboard UI \& Interactivity.
+\- \*\*Streamlit\*\*: Dashboard UI \& Interactivity. (Hugging Face Spaces Deployment)
 
 \- \*\*YFinance\*\*: Real-time market data from NY (ICE) and London Exchanges.
 
 \- \*\*Plotly\*\*: Advanced financial charting.
 
+\- \*\*Docker & GitHub Actions\*\*: Deployment (CI/CD)
 
 
 ---
@@ -73,7 +86,7 @@ In the current cocoa landscape, the "Basis" trap and industrial import strategie
 
 2\. Install dependencies: `pip install -r requirements.txt`
 
-3\. Run the app: `streamlit run cocoa\_market.py`
+3\. Run the app: `streamlit run app.py`
 
 
 
