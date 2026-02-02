@@ -8,13 +8,13 @@ app_file: app.py
 pinned: false
 ---
 
-![Sync to Hugging Face](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/keep_alive.yml/badge.svg)
+![Sync to Hugging Face](https://github.com/pz-computing-sme/global-cocoa-market-analytics/actions/workflows/sync_to_huggingface.yml/badge.svg)
 
 \# 🛡️ Cocoa Market Intelligence: Global Volatility \& Regional Impact
 
 > **Live Tool:** 
 You can access the real-time simulation here:  
-👉 **[Global Cococa Market Analytics on Hugging Face](https://huggingface.co/spaces/vpozza/global-cocoa-market-analytics)**
+👉 **[Global Cocoa Market Analytics on Hugging Face](https://huggingface.co/spaces/vpozza/global-cocoa-market-analytics)**
 
 
 \### \*\*The Bridge between Wall Street and the Brazilian Farmgate\*\*
