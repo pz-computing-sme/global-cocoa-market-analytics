@@ -17,4 +17,9 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.CACAU_SYNC }}
         run: |
-          git push --force https://$HF_TOKEN@huggingface.co/spaces/vpozza/global-cocoa-market-analytics.git main
+          
+          git remote add hf https://$HF_TOKEN@huggingface.co/spaces/vpozza/global-cocoa-market-analytics.git || true
+         
+          git push --force hf main:main
+
+        
