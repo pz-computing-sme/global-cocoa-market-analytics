@@ -1,4 +1,5 @@
 name: Sync to Hugging Face
+
 on:
   push:
     branches: [main]
@@ -12,7 +13,8 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - name: Push to hub
+      - name: Push to Hugging Face Space
         env:
-          CACAU_SYNC: ${{ secrets.CACAU_SYNC }}
-        run: git push --force https://vpozza:$CACAU_SYNC@huggingface.co/spaces/vpozza/global-cocoa-market-analytics main:main
+          HF_TOKEN: ${{ secrets.CACAU_SYNC }}
+        run: |
+          git push --force https://$HF_TOKEN@huggingface.co/spaces/vpozza/global-cocoa-market-analytics.git main
